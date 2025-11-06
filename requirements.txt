@@ -1,0 +1,8 @@
+numpy>=1.26
+pandas>=2.1
+matplotlib>=3.8
+streamlit>=1.36
+pyyaml>=6.0
+tyro>=0.8.6
+torch>=2.2; platform_system != 'Darwin' or platform_machine != 'arm64'
+# On Apple Silicon, you can install torch separately from https://pytorch.org/
